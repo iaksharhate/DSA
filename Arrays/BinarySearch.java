@@ -6,9 +6,9 @@ public class BinarySearch {
         int[] numbers = {23, 24, 48, 54, 58, 65, 74, 88, 94};
 
         // Using binary search to find target element.
-        int targert = 88;
+        int target = 88;
 
-        System.out.println(binarySearch(numbers, targert));
+        System.out.println(binarySearch(numbers, target));
     }
 
     static int binarySearch (int[] numbers, int targert){
