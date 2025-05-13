@@ -24,7 +24,7 @@ public class BinarySearch {
             } else if (targert < numbers[middle]) {
                 end = middle - 1;
             } else {
-                return middle; 
+                return middle;
             }
         }
 
